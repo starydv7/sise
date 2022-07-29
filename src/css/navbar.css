@@ -12,5 +12,6 @@ img{
 }
 .navbar2{
     display: flex;
-    justify-content: space-between;
+    margin-left: 300px;
+    margin-top: -80px;
 }
