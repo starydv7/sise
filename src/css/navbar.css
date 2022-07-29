@@ -1,5 +1,8 @@
 .navbar{
  width: 80%;
- height: 200px;
+ height: 100px;
+ position: relative;
+ margin-left: 180px;
+ background-color: rgb(59, 53, 53);
     
 }
