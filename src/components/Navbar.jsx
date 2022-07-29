@@ -12,7 +12,7 @@ const Navbar = () => {
             <button>DIGITAL MARKRTING</button>
             <button>SPONSORPHIP SALES AND BRANDING</button>
             <button>MUSIC</button>
-            <button><br>CONTACT</br></button>
+            <button>CONTACT</button>
 
           </div>
         </div>
