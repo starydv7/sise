@@ -1,5 +1,6 @@
 import React from 'react'
 import "../css/navbar.css";
+import HomePage from './HomePage';
 const Navbar = () => {
   return (
       <div>
@@ -30,8 +31,9 @@ const Navbar = () => {
 
           </div>
         </div>
-            
-          </div>  
+          
+      </div> 
+        <HomePage/>
     </div>
   )
 }

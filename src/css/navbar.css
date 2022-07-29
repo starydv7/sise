@@ -3,7 +3,7 @@
  height: 100px;
  position: relative;
 
- background-color: rgb(59, 53, 53);
+ background-color: rgb(211, 201, 201);
     
 }
 img{
@@ -12,9 +12,9 @@ img{
 }
 .navbar2{
     display: flex;
-    margin-left: 300px;
-    margin-top: -80px;
+    margin-left: 500px;
+    margin-top: -60px;
 }
-.navbar>button{
+.btn2,.btn3,.btn4,.btn5,.btn6{
     margin-left: 20px;
 }
