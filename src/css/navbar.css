@@ -6,3 +6,7 @@
  background-color: rgb(59, 53, 53);
     
 }
+img{
+    width: 200px;
+    margin-left:-1000px;
+}
