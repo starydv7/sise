@@ -8,7 +8,13 @@ const HomePage = () => {
               <div className='sports'> SPORTS
                   <div className='and'>AND</div>
               </div>
+              <div className='enter'>ENTERTAINMENT</div>
+              <div>
+                  Follow Us on
+                  
           </div>
+          </div>
+          
     </div>
   )
 }

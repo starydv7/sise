@@ -11,19 +11,29 @@
     font-style: oblique;
     font-stretch: expanded;
     font-size: 40px;
-    margin-left: -800px;
+    margin-left: -770px;
 }
 .sports{
     display: flex;
     font-size: 100px;
     margin-left: 200px;
     font-family: Arial;
-    font-weight: 200;
+    font-weight: 100;
     font-style: normal;
     color: #60c549;
+    
 }
 .and{
     font-size: 17px;
-    margin-left: 10px;
+    margin-left: 15px;
     margin-top: 80px;
+    color: black;
+}
+.enter{
+    color: aqua;
+    font-size: 100px;
+    margin-left: -370px;
+    margin-top: -20px;
+    font-weight: 200;
+    
 }
