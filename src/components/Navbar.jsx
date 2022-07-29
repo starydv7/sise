@@ -5,7 +5,8 @@ const Navbar = () => {
       <div>
       <div className='navbar'>
         <div className='navbar1'> 
-            <img src='http://www.sise.in/images/logo.png'/>
+          <img src='http://www.sise.in/images/logo.png' />
+          
         </div>
             
           </div>  
