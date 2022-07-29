@@ -15,3 +15,6 @@ img{
     margin-left: 300px;
     margin-top: -80px;
 }
+.navbar>button{
+    margin-left: 20px;
+}

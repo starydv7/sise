@@ -7,12 +7,26 @@ const Navbar = () => {
         <div className='navbar1'> 
           <img src='http://www.sise.in/images/logo.png' />
           <div className='navbar2'>
-            <button>ABOUT</button>
-            <button>TALENT MANAGEMENT</button>
-            <button>DIGITAL MARKRTING</button>
-            <button>SPONSORPHIP SALES AND BRANDING</button>
-            <button>MUSIC</button>
-            <button>CONTACT</button>
+            <div className='btn1'>
+               <button>ABOUT</button>
+            </div>
+            <div className='btn2'>
+              <button>TALENT MANAGEMENT</button>
+            </div>
+            <div className='btn3'>
+              <button>DIGITAL MARKRTING</button>
+            </div>
+            
+            <div className='btn4'>
+               <button>SPONSORPHIP SALES AND BRANDING</button>
+            </div>
+            <div className='btn5'>
+              <button>MUSIC</button>
+           </div>
+            <div className='btn6'>
+               <button>CONTACT</button>
+            </div>
+           
 
           </div>
         </div>
