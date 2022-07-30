@@ -1,5 +1,6 @@
 import React from 'react';
 import "../css/homepage.css";
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
 const HomePage = () => {
   return (
       <div>
@@ -11,7 +12,11 @@ const HomePage = () => {
               <div className='enter'>ENTERTAINMENT</div>
               <div>
                   Follow Us on
-                  
+                  <div>
+                      
+                      +<div className="
+                      +0325"></div>
+              </div>
           </div>
           </div>
           
