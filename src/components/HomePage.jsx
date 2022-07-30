@@ -14,8 +14,7 @@ const HomePage = () => {
                   Follow Us on
                   <div>
                       
-                      +<div className="
-                      +0325"></div>
+            
               </div>
           </div>
           </div>
