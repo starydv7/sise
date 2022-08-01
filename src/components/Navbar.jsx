@@ -1,6 +1,13 @@
 import React from 'react'
 import "../css/navbar.css";
 import HomePage from './HomePage';
+import { Routes, Route } from "react-router-dom";
+import About from './About';
+import Talent from './Talent';
+import Digital from './Digital';
+import Sponser from './Sponser';
+import Music from './Music';
+import Contact from './Contact';
 const Navbar = () => {
   return (
       <div>
@@ -8,25 +15,15 @@ const Navbar = () => {
         <div className='navbar1'> 
           <img src='http://www.sise.in/images/logo.png' />
           <div className='navbar2'>
-            <div className='btn1'>
-               <button>ABOUT</button>
-            </div>
-            <div className='btn2'>
-              <button>TALENT MANAGEMENT</button>
-            </div>
-            <div className='btn3'>
-              <button>DIGITAL MARKRTING</button>
-            </div>
-            
-            <div className='btn4'>
-               <button>SPONSORPHIP SALES AND BRANDING</button>
-            </div>
-            <div className='btn5'>
-              <button>MUSIC</button>
-           </div>
-            <div className='btn6'>
-               <button>CONTACT</button>
-            </div>
+            <Routes>
+              <Route path="/" element={<HomePage />}></Route>
+              <Route path='/about' element={<About />}>About</Route>
+              <Route path='/talent'element={<Talent/>}>TALENT MANAGEMENT</Route>
+              <Route path='/digital' element={<Digital />}>DIGITAL MARKETING</Route>
+              <Route path='/s' element={<Sponser />}>SPONSERSHIP AND BRANDING</Route>
+              <Route path='/music' element={<Music />}>MUSIC</Route>
+              <Route path='/contact'element={<Contact/>}>CONTACT</Route>
+          </Routes>
            
 
           </div>
