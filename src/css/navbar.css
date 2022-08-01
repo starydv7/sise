@@ -12,8 +12,9 @@ img{
 }
 .navbar2{
     display: flex;
-    margin-left: 500px;
+    margin-left: 200px;
     margin-top: -60px;
+    justify-content: space-evenly;
 }
 .btn2,.btn3,.btn4,.btn5,.btn6{
     margin-left: 20px;

@@ -1,13 +1,7 @@
 import React from 'react'
 import "../css/navbar.css";
 import HomePage from './HomePage';
-import { Routes, Route } from "react-router-dom";
-import About from './About';
-import Talent from './Talent';
-import Digital from './Digital';
-import Sponser from './Sponser';
-import Music from './Music';
-import Contact from './Contact';
+import { Link, useNavigate } from "react-router-dom";
 const Navbar = () => {
   return (
       <div>
@@ -15,17 +9,13 @@ const Navbar = () => {
         <div className='navbar1'> 
           <img src='http://www.sise.in/images/logo.png' />
           <div className='navbar2'>
-            <Routes>
-              <Route path="/" element={<HomePage />}></Route>
-              <Route path='/about' element={<About />}>About</Route>
-              <Route path='/talent'element={<Talent/>}>TALENT MANAGEMENT</Route>
-              <Route path='/digital' element={<Digital />}>DIGITAL MARKETING</Route>
-              <Route path='/s' element={<Sponser />}>SPONSERSHIP AND BRANDING</Route>
-              <Route path='/music' element={<Music />}>MUSIC</Route>
-              <Route path='/contact'element={<Contact/>}>CONTACT</Route>
-          </Routes>
-           
-
+           <Link to=""></Link>
+      <Link to="/about">ABOUT</Link>
+      <Link to="/talent">TALENT MANAGEMENT</Link>
+            <Link to="/digital">DIGITAL MARKETING</Link>
+            <Link to="/sponser">SPONSERSHIP SALES AND BRANDING</Link>
+      <Link to="/music">MUSIC</Link>
+      <Link to="/contact">CONTACT</Link>
           </div>
         </div>
           
