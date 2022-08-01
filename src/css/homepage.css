@@ -1,39 +1,58 @@
-.homepage1{
-    width: 100%;
-    height: auto;
-    background-color: #d4f0cd;
-    
-}
-.sise1{
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500;
-    font-style: oblique;
-    font-stretch: expanded;
+.second{
+    margin-left: -850px;
+    margin-top: 30px;
     font-size: 40px;
-    margin-left: -770px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .sports{
     display: flex;
-    font-size: 100px;
-    margin-left: 200px;
-    font-family: Arial;
+    margin-left: 150px;
+    font-size: 120px;
     font-weight: 100;
-    font-style: normal;
-    color: #60c549;
-    
+    color: rgb(51, 197, 25);
+
 }
 .and{
-    font-size: 17px;
-    margin-left: 15px;
-    margin-top: 80px;
+    font-size: 18px;
+    margin-top: 120px;
+    font-weight: 400;
     color: black;
+    
 }
 .enter{
+    font-size: 120px;
+    font-weight: 100;
     color: aqua;
-    font-size: 100px;
-    margin-left: -370px;
-    margin-top: -20px;
-    font-weight: 200;
-    
+    margin-left: -380px;
+}
+.follow{
+    display: flex;
+
+}
+.follow{
+    padding: 5px;
+    margin-left: 140px;
+    margin-top: -40px;
+}
+.youtube{
+    margin: 10px;
+    border-radius: 50%;
+    color: rgb(51, 197, 25,0.7);
+}
+.facebook{
+    margin-left: -10px;
+    margin-top: 10px;
+    color: rgb(51, 197, 25,0.7);
+}
+.insta{
+    margin-top: 20px;
+    color: rgb(51, 197, 25,0.7);
+
+}
+.twitter{
+    margin-top: 10px;
+}
+.social{
+    display: flex;
 }
