@@ -9,6 +9,7 @@ import Navbar from './components/Navbar';
 import Sponser from './components/Sponser';
 import Talent from './components/Talent';
 
+
 function App() {
   return (
     <div className="App">
@@ -22,6 +23,7 @@ function App() {
              <Route path="music" element={<Music/>}></Route>
               <Route path="contact" element={<Contact/>}></Route>
       </Routes>
+    
     </div>
   );
 }

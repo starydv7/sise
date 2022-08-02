@@ -1,0 +1,21 @@
+.t1{
+    width: 500px;
+}
+
+.talent5{
+    font-size: 50px;
+    margin-top: -150px;
+    color: aqua;
+}
+.mang{
+    color: rgb(152, 199, 33);
+}
+.btntag{
+    color: black;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 2px solid black;
+    width: 120px;
+   font-stretch: extra-expanded;
+
+}
