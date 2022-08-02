@@ -2,7 +2,14 @@ import React from 'react'
 
 const Talent = () => {
   return (
-    <div>Talent</div>
+    <div className='talent'>
+      <div>
+     
+      </div>
+      <div>
+
+      </div>
+    </div>
   )
 }
 
