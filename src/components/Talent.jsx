@@ -4,7 +4,7 @@ const Talent = () => {
   return (
     <div className='talent'>
       <div>
-     
+        {/* <img src={talent.png} /> */}
       </div>
       <div>
 
